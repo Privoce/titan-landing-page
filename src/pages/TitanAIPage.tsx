@@ -65,16 +65,16 @@ const content = {
   ],
   faq: [
     {
-      q: "What systems can Titan AI integrate with?",
-      a: "Titan AI integrates seamlessly with mainstream CRM, CPQ, and ERP systems, including Salesforce, HubSpot, DealHub, Conga, SAP, Workday, and NetSuite. We support API-based, secure file-based, private cloud, and on-premise integrations."
+      q: "What systems can Titan AI Deal Copilot integrate with?",
+      a: "Titan AI integrates seamlessly with mainstream CRM, CPQ, and ERP systems, including Salesforce, HubSpot, DealHub, Conga, SAP, Workday, and NetSuite."
     },
     {
       q: "How long does deployment take?",
       a: "Typical deployment takes 2–3 months, using a 'PoC = Implementation' approach. We select a small region or a few representative accounts, build the full workflow and models, and run it in real business conditions. After measurable results, you decide on the go/no-go before subscription."
     },
     {
-      q: "Who will use Titan AI?",
-      a: "Titan AI is usually rolled out in two phases:\n\nPhase 1: Deal Desk, Pricing Team, Revenue Operations\n\nPhase 2: Full Sales Team\n\nRollout can be adapted based on your team and organizational readiness."
+      q: "Who will use Titan AI Deal Copilot?",
+      a: "Deal Copilot is usually rolled out in two phases:\n\nPhase 1: Deal Desk, Pricing Team, Revenue Operations\n\nPhase 2: Full Sales Team\n\nRollout can be adapted based on your team and organizational readiness."
     },
     {
       q: "What data do you need?",
@@ -136,7 +136,7 @@ export default function TitanAIPage() {
       <header className="sticky top-0 z-40 backdrop-blur bg-white border-b border-slate-200 shadow-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
           <a href="#hero" className="flex items-center">
-            <img src={import.meta.env.BASE_URL + "EBE56E2F-2F79-4B9E-BC91-726C8F192B1E.jpeg"} alt="Titan AI" className="h-10" />
+            <img src="/EBE56E2F-2F79-4B9E-BC91-726C8F192B1E.jpeg" alt="Titan AI" className="h-10" />
           </a>
           <nav className="hidden items-center gap-6 text-base font-semibold md:flex">
             {sections.map((section) => (
@@ -259,7 +259,7 @@ export default function TitanAIPage() {
 
               <div className="text-xl text-black max-w-6xl mx-auto leading-relaxed font-normal">
                 <p>
-                  <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">Titan AI is a niche leader in next-generation sales and pricing solutions for the global technology sector.</span> Founded in 2023 and headquartered in New York, Titan AI has supported more than 20 companies across the United States, China, and Sweden.
+                  <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">Titan AI is a niche leader in next-generation sales and pricing solutions for the global technology sector.</span> Founded in 2023 and headquartered in New York, Titan AI has supported 20+ companies across the United States, China, and Sweden.
                 </p>
               </div>
             </div>
@@ -280,10 +280,10 @@ export default function TitanAIPage() {
                 {/* Company Logos */}
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="flex items-end justify-start">
-                    <img src={import.meta.env.BASE_URL + "Vendavo.png"} alt="Vendavo" className="h-12 object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '30px'}} />
+                    <img src="/Vendavo.png" alt="Vendavo" className="h-12 object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '30px'}} />
                   </div>
                   <div className="flex items-end justify-end">
-                    <img src={import.meta.env.BASE_URL + "BCG copy.png"} alt="BCG" className="h-[120px] object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '-5px'}} />
+                    <img src="/BCG copy.png" alt="BCG" className="h-[120px] object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '-5px'}} />
                   </div>
                 </div>
 
@@ -303,10 +303,10 @@ export default function TitanAIPage() {
                 {/* Company Logos */}
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="flex items-end justify-start">
-                    <img src={import.meta.env.BASE_URL + "MIT.png"} alt="MIT" className="h-[150px] object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '-60px'}} />
+                    <img src="/MIT.png" alt="MIT" className="h-[150px] object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '-60px'}} />
                   </div>
                   <div className="flex items-end justify-end">
-                    <img src={import.meta.env.BASE_URL + "Google.png"} alt="Google" className="h-[68px] object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '-20px'}} />
+                    <img src="/Google.png" alt="Google" className="h-[68px] object-contain opacity-90 hover:opacity-100 transition-opacity duration-300" style={{marginBottom: '-20px'}} />
                   </div>
                 </div>
 
@@ -330,7 +330,7 @@ export default function TitanAIPage() {
                   </h4>
                   <p className="text-2xl font-bold text-slate-900 mb-4">Levy J.</p>
                   <p className="text-slate-700 leading-relaxed">
-                    Co-led multiple $500M+ impact AI/ML-driven Sales and Revenue Transformations for F100 enterprises at global top consulting firms.
+                    Co-led multiple $500M+ impact AI/ML-driven Sales and Revenue Transformations for F100 enterprises at global top consulting firms
                   </p>
                 </div>
 
@@ -341,7 +341,7 @@ export default function TitanAIPage() {
                   </h4>
                   <p className="text-2xl font-bold text-slate-900 mb-4">Han S.</p>
                   <p className="text-slate-700 leading-relaxed">
-                    Former Tencent AI engineer and MIT graduate on full scholarship; serial entrepreneur with deep expertise in full-stack productization and end-to-end AI/ML implementation.
+                    Former Tencent AI engineer and MIT graduate on full scholarship; serial entrepreneur with deep expertise in full-stack productization and end-to-end AI/ML implementation
                   </p>
                 </div>
 
@@ -352,7 +352,7 @@ export default function TitanAIPage() {
                   </h4>
                   <p className="text-2xl font-bold text-slate-900 mb-4">Yifan X.</p>
                   <p className="text-slate-700 leading-relaxed">
-                    Former Google Vertex AI Tech Lead and Apple engineer; specialist in ML model training, structured-data modeling, and LLM fine-tuning.
+                    Former Google Vertex AI Tech Lead and Apple engineer; specialist in ML model training, structured-data modeling, and LLM fine-tuning
                   </p>
                 </div>
               </div>

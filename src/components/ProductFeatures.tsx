@@ -20,7 +20,7 @@ const features = [
     description: [
       'Uses incoming deal information (products, prices, discounts, customer details)',
       'To place each deal into Aggressive, Balanced, or Premium price ranges and show relevant pricing, bundling, and competitor considerations',
-      'So sellers can instantly see indicative pricing and deal demographics to set appropriate tones even for discovery'
+      'Sellers can instantly see indicative pricing and deal demographics to set appropriate tones even for discovery'
     ],
     align: 'left',
   },
@@ -31,7 +31,7 @@ const features = [
     description: [
       'Uses historical CRM and transaction data',
       'To map out and compare a new deal with similar past deals and give tiered pricing recommendations',
-      'So each deal can be benchmarked against similar past deals, giving sellers clarity and ability to learn how to optimally price and negotiate'
+      'Each deal can be benchmarked against similar past deals, giving sellers clarity and ability to learn how to optimally price and negotiate'
     ],
     align: 'right',
   },
@@ -42,7 +42,7 @@ const features = [
     description: [
       "Uses the customer's past purchases, volumes, timing, and product mix",
       'To identify and analyze buying patterns, renewal behavior, prior discount expectations, and give discount/configuration recommendations',
-      'So sellers can offer tailored discounts and deal configurations that connect directly to the customer\'s past purchases, making customers feel understood, strengthening loyalty, and increasing win rates'
+      'Sellers can offer tailored discounts and deal configurations that connect directly to the customer\'s past purchases, making customers feel understood, strengthening loyalty, and increasing win rates'
     ],
     align: 'left',
   },
@@ -53,7 +53,7 @@ const features = [
     description: [
       'Uses historical data to group customers with similar needs and behaviors',
       'To match the current deal to the closest-fit group and suggest a product or package configuration based on typical requirements backed with rationale',
-      'So sellers can instantly surface optimized configurations for similar customers and requests, and identify cross-sell and upsell opportunities to maximize deal value'
+      'Sellers can instantly surface optimized configurations for similar customers and requests, and identify cross-sell and upsell opportunities to maximize deal value'
     ],
     align: 'right',
   },
@@ -64,7 +64,7 @@ const features = [
     description: [
       'Uses statistical models to estimate how much value each product feature delivers to comparable customers',
       'To quantify customer perceived values between features and visualize them, and recommend value statements for each feature during negotiation',
-      'So sellers understand which parts of the offer drive the most perceived value for that customer, and how to sell those value points to maximize margin and win rate'
+      'Sellers understand which parts of the offer drive the most perceived value for that customer, and how to sell those value points to maximize margin and win rate'
     ],
     align: 'left',
   },
@@ -75,7 +75,7 @@ const features = [
     description: [
       'Uses win–loss records and other structured inputs',
       'To forecast who might be potential competitors for each deal, and how they will price under each scenario',
-      'So that sellers understand competitor landscape to triangulate their pricing and offering'
+      'Sellers understand competitor landscape to triangulate their pricing and offering'
     ],
     align: 'right',
   },
@@ -86,7 +86,7 @@ const features = [
     description: [
       'Uses customer comments and external information',
       'To compare vendors on features, strengths, gaps, and generate probing questions and battle cards',
-      'So sellers see what customers are comparing, understand win/loss drivers, and how to reinforce values in negotiations'
+      'Sellers see what customers are comparing, understand win/loss drivers, and how to reinforce values in negotiations'
     ],
     align: 'left',
   },
@@ -97,7 +97,7 @@ const features = [
     description: [
       'Uses prior negotiation outcomes and internal rules',
       'To recommend starting points, expected objections, reasonable concessions, and required conditions for price changes',
-      'So that every seller becomes a negotiation master in winning more deals and getting more margin'
+      'Every seller becomes a negotiation master in winning more deals and getting more margin'
     ],
     align: 'right',
   },
@@ -108,7 +108,7 @@ const features = [
     description: [
       'Uses deal attributes such as size, discount level, products, and risk flags',
       'To determine which approval levels are required, summarize key information for reviewers, automatically routing, and recommend optimal feedback for approvers',
-      'So that approvers can review deals quickly with less capacity occupied, and return clear & actionable feedback'
+      'Approvers can review deals quickly with less capacity occupied, and return clear & actionable feedback'
     ],
     align: 'left',
   },
