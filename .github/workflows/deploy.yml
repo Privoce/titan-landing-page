@@ -38,6 +38,10 @@ jobs:
           VITE_BASE_PATH: /
         run: |
           npm run build
+          echo "Build completed. Checking dist directory..."
+          ls -la dist/
+          echo "Content of dist/index.html:"
+          head -20 dist/index.html
           cp dist/index.html dist/404.html
           cp CNAME dist/CNAME
 
