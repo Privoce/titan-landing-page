@@ -421,7 +421,7 @@ export default function TitanAIPage() {
               <a href="#" className="hover:text-white">Contact</a>
             </div>
           </div>
-          <div className="mt-6 text-xs">© {new Date().getFullYear()} Titan AI. All rights reserved.</div>
+          <div className="mt-6 text-xs">© {new Date().getFullYear()} Titan AI by Privoce, Inc. All rights reserved.</div>
         </div>
       </footer>
     </div>
