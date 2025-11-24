@@ -225,7 +225,7 @@ const AIEngine = () => {
                   className="flex items-start gap-2"
                 >
                   <div className="w-1 h-1 rounded-full bg-cyan-400 mt-1.5 flex-shrink-0" />
-                  <span>Decision tree / neural network models</span>
+                  <span>Detects patterns across deal signals</span>
                 </motion.div>
                 <motion.div
                   animate={{ opacity: [0.6, 1, 0.6] }}
@@ -233,7 +233,7 @@ const AIEngine = () => {
                   className="flex items-start gap-2"
                 >
                   <div className="w-1 h-1 rounded-full bg-cyan-400 mt-1.5 flex-shrink-0" />
-                  <span>Matches incoming deals to historical similar deals</span>
+                  <span>Groups similar situations for comparison</span>
                 </motion.div>
                 <motion.div
                   animate={{ opacity: [0.6, 1, 0.6] }}
@@ -241,7 +241,7 @@ const AIEngine = () => {
                   className="flex items-start gap-2"
                 >
                   <div className="w-1 h-1 rounded-full bg-cyan-400 mt-1.5 flex-shrink-0" />
-                  <span>Clusters deals into ML nodes</span>
+                  <span>Surfaces insights relevant to each deal</span>
                 </motion.div>
                 <motion.div
                   animate={{ opacity: [0.6, 1, 0.6] }}
@@ -249,7 +249,7 @@ const AIEngine = () => {
                   className="flex items-start gap-2"
                 >
                   <div className="w-1 h-1 rounded-full bg-cyan-400 mt-1.5 flex-shrink-0" />
-                  <span>Within each node dynamically adjusts pricing predictors to recommend price</span>
+                  <span>Adapts guidance based on deal context</span>
                 </motion.div>
               </div>
 

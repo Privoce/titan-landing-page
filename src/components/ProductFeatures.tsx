@@ -18,8 +18,7 @@ const features = [
     title: 'AI-powered quoting',
     icon: Zap,
     description: [
-      'Uses incoming deal information (products, prices, discounts, customer details)',
-      'To place each deal into Aggressive, Balanced, or Premium price ranges and show relevant pricing, bundling, and competitor considerations',
+      'Deal Copilot recommends Aggressive, Balanced, or Premium price ranges for each item and shows relevant pricing, bundling, and competitor considerations',
       'Sellers can instantly see indicative pricing and deal demographics to set appropriate tones even for discovery'
     ],
     align: 'left',
@@ -29,8 +28,7 @@ const features = [
     title: 'Pricing corridor',
     icon: TrendingUp,
     description: [
-      'Uses historical CRM and transaction data',
-      'To map out and compare a new deal with similar past deals and give tiered pricing recommendations',
+      'Deal Copilot visualizes similar past deals by margin/discount distribution and highlights where the current deal sits within that corridor',
       'Each deal can be benchmarked against similar past deals, giving sellers clarity and ability to learn how to optimally price and negotiate'
     ],
     align: 'right',
@@ -40,20 +38,18 @@ const features = [
     title: 'Customer transaction history',
     icon: Users,
     description: [
-      "Uses the customer's past purchases, volumes, timing, and product mix",
-      'To identify and analyze buying patterns, renewal behavior, prior discount expectations, and give discount/configuration recommendations',
+      'Deal Copilot identifies and analyzes buying patterns, renewal behavior, prior discount expectations, and recommends optimal discount/configuration options',
       'Sellers can offer tailored discounts and deal configurations that connect directly to the customer\'s past purchases, making customers feel understood, strengthening loyalty, and increasing win rates'
     ],
     align: 'left',
   },
   {
     id: '04',
-    title: 'Cross-selling & Packaging Simulator',
+    title: 'Bundling & packaging ',
     icon: Package,
     description: [
-      'Uses historical data to group customers with similar needs and behaviors',
-      'To match the current deal to the closest-fit group and suggest a product or package configuration based on typical requirements backed with rationale',
-      'Sellers can instantly surface optimized configurations for similar customers and requests, and identify cross-sell and upsell opportunities to maximize deal value'
+      'Deal Copilot compares current deal to the closest-fit group and recommends BoM/bundling options with rationale',
+      'Sellers can instantly surface optimized configurations for similar customers and requests, and identify cross-sell and upsell opportunities to maximize current deal value'
     ],
     align: 'right',
   },
@@ -62,8 +58,7 @@ const features = [
     title: 'Value-based selling',
     icon: Award,
     description: [
-      'Uses statistical models to estimate how much value each product feature delivers to comparable customers',
-      'To quantify customer perceived values between features and visualize them, and recommend value statements for each feature during negotiation',
+      'Deal Copilot quantifies customer perceived values between features, visualizes in charts, and recommends value statements for each feature during negotiation',
       'Sellers understand which parts of the offer drive the most perceived value for that customer, and how to sell those value points to maximize margin and win rate'
     ],
     align: 'left',
@@ -73,8 +68,7 @@ const features = [
     title: 'Quantitative competitive analysis',
     icon: BarChart3,
     description: [
-      'Uses win–loss records and other structured inputs',
-      'To forecast who might be potential competitors for each deal, and how they will price under each scenario',
+      'Deal Copilot identifies likely competitors for each opportunity and models their expected pricing positions across relevant deal scenarios',
       'Sellers understand competitor landscape to triangulate their pricing and offering'
     ],
     align: 'right',
@@ -84,9 +78,8 @@ const features = [
     title: 'Qualitative competitive analysis',
     icon: MessageSquare,
     description: [
-      'Uses customer comments and external information',
-      'To compare vendors on features, strengths, gaps, and generate probing questions and battle cards',
-      'Sellers see what customers are comparing, understand win/loss drivers, and how to reinforce values in negotiations'
+      'Deal Copilot compares offerings against competitors on key features this customer archetype values most and provides battle cards that reinforce the differentiation',
+      'Sellers understand where the comparative advantages lie and how to reinforce the value that matters most in negotiations to increase win rate'
     ],
     align: 'left',
   },
@@ -95,19 +88,17 @@ const features = [
     title: 'Negotiation playbook',
     icon: Handshake,
     description: [
-      'Uses prior negotiation outcomes and internal rules',
-      'To recommend starting points, expected objections, reasonable concessions, and required conditions for price changes',
+      'Deal Copilot recommends starting points, expected objections, reasonable concessions, and required conditions for price changes',
       'Every seller becomes a negotiation master in winning more deals and getting more margin'
     ],
     align: 'right',
   },
   {
     id: '09',
-    title: 'Deal approval process',
+    title: 'Deal approval',
     icon: ShieldCheck,
     description: [
-      'Uses deal attributes such as size, discount level, products, and risk flags',
-      'To determine which approval levels are required, summarize key information for reviewers, automatically routing, and recommend optimal feedback for approvers',
+      'Deal Copilot determines which approval levels are required, summarize key information for reviewers, automatically routing, and recommend optimal feedback for approvers',
       'Approvers can review deals quickly with less capacity occupied, and return clear & actionable feedback'
     ],
     align: 'left',
@@ -291,9 +282,9 @@ const FeatureSection = ({
                   : index === 1
                   ? "/image copy copy copy copy copy copy copy copy copy copy copy copy copy.png"
                   : index === 2
-                  ? "/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png"
+                  ? "/Screenshot 2025-11-19 170814.png"
                   : index === 3
-                  ? "/image copy copy copy copy copy copy copy copy copy copy copy copy copy copy copy.png"
+                  ? "/Screenshot 2025-11-19 171521 copy copy.png"
                   : index === 4
                   ? "/image copy copy copy copy copy copy copy.png"
                   : index === 5

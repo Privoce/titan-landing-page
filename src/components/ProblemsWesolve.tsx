@@ -6,7 +6,7 @@ const personas = [
     title: 'Sales Teams',
     description: (
       <>
-        Sales reps lack <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">real-time pricing guidance</span>, <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">competitive benchmarks</span>, <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">bundling logic</span>, and <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">negotiation support</span> They rely on instinct instead of data, causing slow response times, inconsistent discounts, and lower win rates
+        Lack consistent guidance on pricing, competitive context, and negotiation. This leads to slow responses, inconsistent discounts, and lower win rates
       </>
     ),
     gradient: 'from-blue-500 via-blue-400 to-cyan-400',
@@ -21,7 +21,7 @@ const personas = [
     title: 'Pricing / Deal Desk / Revenue Operations Teams',
     description: (
       <>
-        Pricing and Deal Desk teams lack <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">automation</span>, <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">unified data</span>, and <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">standardized guardrails</span> They manually rebuild analysis for every deal—<span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">margin checks</span>, <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">SKU review</span>, <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">bundles</span>, <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">exceptions</span>, and <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">approvals</span>—resulting in high operational cost and duplicated analytical effort
+        Operate with fragmented data and manual checks (margins, bundles, exceptions). High effort, repetitive analysis, and limited ability to enforce guardrails at scale
       </>
     ),
     gradient: 'from-cyan-500 via-blue-400 to-blue-500',
@@ -33,10 +33,10 @@ const personas = [
     ]
   },
   {
-    title: 'Leaderships (CRO / CFO / COO)',
+    title: 'Deal Approvers',
     description: (
       <>
-        C-suite leaders lack <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">real-time visibility</span> into live deal margins, discount trends, policy compliance, and approval bottlenecks Manual governance makes it hard to enforce <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">pricing discipline</span> or control <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-cyan-700 to-blue-800">profitability at scale</span>
+        Lack real-time visibility into deal economics and policy compliance. High-volume manual approvals slow throughput and weaken pricing discipline
       </>
     ),
     gradient: 'from-blue-400 via-cyan-500 to-teal-400',
