@@ -23,6 +23,8 @@ export default function TitanAIDynamicPreview() {
         <video
           src={videoUrl}
           controls
+          autoPlay
+          muted
           playsInline
           className="w-full h-full object-contain"
         />
