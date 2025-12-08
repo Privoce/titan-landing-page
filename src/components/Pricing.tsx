@@ -6,7 +6,7 @@ const plans = [
     price: '299',
     description: 'Perfect for small businesses getting started with AI pricing',
     features: [
-      'Up to 1,000 SKUs',
+      'Up to 3,000 SKUs',
       'Daily price updates',
       'Basic analytics',
       'Email support',
